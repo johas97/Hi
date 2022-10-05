@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://kit.fontawesome.com/a074d054ca.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="static/img/mug.jpg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"> <a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"> <a href="#services" class="nav__link">My Talents</a></li>
+                <li class="nav__item"> <a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"> <a href="#footer" class="nav__link">Contact Me</a></li>
+            </ul>
+
+
+        </nav>
+        
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong> Johan Jigsved</strong>
+        </h1>
+        <p class="section_subtitle section__subtitle--intro">Enviormental Engineer</p>
+        <img src="static/img/myFace.jpg" alt="Johan Smiling pic" class="intro__img">
+
+
+    </section>
+
+<!--My service-->
+<section class="my-services" id="services">
+    <h2 class="section__title section__title-services">My Talents</h2>
+   <div class="services">
+        <div class="service">
+            <h3>Engeneering</h3>
+            <p>Education in envoirmental engeneering from Linköping University. Coducted life Cycle Analysis for the battery maker Ligna AB and for the SMMART-project (Electric heating of asfalt). </p>
+        </div><!--/service-->
+
+        <div class="service">
+            <h3>Programming</h3>
+            <p>Is it a coder you are looking for? You are in luck! Having passed several
+                 programming courses and with some self-taught knowledge I consider myself at a junior level in programming. Having done the basics in c++ and Data Structures & algorithm in Java. Also this website!  </self-taught></p>
+        </div><!--/service-->
+
+        <div class="service">
+            <h3>French</h3>
+            <p>I have an interest of language going back 3 years. This interest have now bloomed and after passing 6 moths at Göteborg University I now consider myself fluent in French.
+                 Quelle merveille hein!  </p>
+        </div><!--/service-->
+    </div> <!--/serviceS-->
+    <a href="#footer" class="btn"> Contact Me</a>
+</section>
+
+<!-- About Me-->
+<section class="about-me" id="about">
+    
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about"> A visionary worker </p>
+
+    <div class="about-me__body"> 
+        <p> I have always loved to envision the future, so when someone told me building the future is the job of an Engineer, I was hooked. In order to get anyting done a lot more is needed than good ideas. Consistent work has to make the foundation of any change. </p>
+        <p> In an team I will always look for the good of the group, while trying to keep up the spirits, even if this means having some difficult converasations. The art of good communication is something I am passionate about, having taken part in the podcast MediaMaskinen.</p>
+    </div>
+    <img src="static/img/johanbig.jpg" alt="" class="about_me-img">
+</section> 
+
+
+<!-- Footer-->
+<footer class="footer" id="footer">
+
+    <!-- Style to fit new constrains, has to be input box-->
+   <input type="text" class="footer-eMail" id="myEmail" value="johan.jigsved@yahoo.se" readonly>
+ 
+    <ul class="social-list">
+        <li class="social-list__item"> <a class="social-list__link" href="https://www.linkedin.com/in/johan-jigsved-540a26201/"> <span class="linkedIN-text">LinkedIN</span></i></a>
+        <li class="social-list__item"> <a class="social-list__link" href="https://www.github.com/johas97/">  <i class="fa fa-github"></i></li></a>
+
+
+    </ul>
+</footer>
+
+<script src="static/js/logic.js"></script>
+
+
+</body>
+
+
+
+</html>
